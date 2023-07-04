@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import "./header.css"
 
 
@@ -6,6 +6,21 @@ import "./header.css"
 // =============== Toggle Menu =================
 const Header = () => {
     const[Toggle, setToggle] = useState(false)
+    const [ darkMode, setDarkMode ] = useState(false)
+    useEffect(() => {
+        const body = document.body
+        const toggle = document.querySelector('.toggle-inner')
+        
+        
+        if( darkMode === true ) {
+          body.classList.add('dark-mode')
+          toggle.classList.add('toggle-active')
+        } else {
+          body.classList.remove('dark-mode')
+          toggle.classList.remove('toggle-active')
+        }
+      }, [darkMode])
+
   return (
     <header className="header">
         <nav className="nav container">
@@ -51,6 +66,11 @@ const Header = () => {
                 </ul>
 
                 <i className="uil uil-times nav__close" onClick={ () => setToggle(!Toggle)}></i>
+            </div>
+            <div className="themechange nav__logo">
+                <div id="toggle"
+                onClick={() => darkMode === false ? setDarkMode(true) : setDarkMode(false)}>
+                <div className="toggle-inner"/></div>
             </div>
             <div className="nav__toggle" onClick={ () => setToggle(!Toggle)}>
                 <i className="uil uil-apps nav__close"></i>
