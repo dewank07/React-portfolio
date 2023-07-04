@@ -21,8 +21,8 @@ const Contact = () => {
                     <div className="contact__card">
                         <i className="bx bx-mail-send contact__card-icon"></i>
                         <h3 className="contact__card-title">Email</h3>
-                        <span className="contact__card-data">@gmail.com</span>
-                        <a href="https://dewank.social/" className="contact__button">write me 
+                        <span className="contact__card-data">dewankrastogi007@gmail.com</span>
+                        <a href="mailto:dewankrastogi007@gmail.com" className="contact__button">write me 
                         <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>
                     </div>
@@ -30,17 +30,17 @@ const Contact = () => {
                     <div className="contact__card">
                         <i className="bx bxl-whatsapp contact__card-icon"></i>
                         <h3 className="contact__card-title">Whatsapp</h3>
-                        <span className="contact__card-data">+91</span>
+                        <span className="contact__card-data">+91 8057116644</span>
                         <a href="https://dewank.social/" className="contact__button">write me 
                         <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>
                     </div>
 
                     <div className="contact__card">
-                        <i className="bx bxl-messenger contact__card-icon"></i>
-                        <h3 className="contact__card-title">huihui</h3>
-                        <span className="contact__card-data">fdg</span>
-                        <a href="https://dewank.social/" className="contact__button">write me 
+                        <i className="bx bxl-linkedin contact__card-icon"></i>
+                        <h3 className="contact__card-title">LinkedIn</h3>
+                        <span className="contact__card-data">Dewank Rastogi</span>
+                        <a href="https://www.linkedin.com/in/dewank-rastogi-0322961b2/" className="contact__button">write me 
                         <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>
                     </div>
@@ -56,7 +56,7 @@ const Contact = () => {
                             type="text" 
                             name="name" 
                             className="contact__form-input" 
-                            placeholder="Insert your Name"
+                            placeholder="Write your Name"
                         />
                     </div>
                     <div className="contact__form-div">

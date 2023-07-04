@@ -55,15 +55,13 @@ const Data = () => {
                   ></path>
                 </svg>
       </h1>
-      <h3 className="home__subtitle">Frontend Developer</h3>
+      <h3 className="home__subtitle">Fullstack Developer | Desinger </h3>
       <p className="home__description">
-        This is my intro to the frontend
-        Lorem ipsum dolor sit amet Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-
+      A Full-Stack Web Developer, a Software Engineer and a Designer driven by the challenge of solving intricate problems and creating polished and practical solutions.
       </p>
 
       <a href="#contact" className="button button--flex">
-        Say Hello <svg
+        Say hello  <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"

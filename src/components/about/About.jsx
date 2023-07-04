@@ -15,7 +15,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, expedita? Minima earum inventore repudiandae omnis possimus tempora asperiores aspernatur numquam. Eius exercitationem quas laudantium nesciunt et voluptatibus rerum, temporibus architecto. 
+          A Full-Stack Web Developer, a Software Engineer and a Designer driven by the challenge of solving intricate problems and creating polished and practical solutions.
           </p>
 
           <a href={CV} className="button button--flex">Download Resume

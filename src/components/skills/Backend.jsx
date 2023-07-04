@@ -4,7 +4,7 @@ const Backend = () => {
   return (
     <div className="skills__content">
     <h3 className="skills__title">
-    Backend Developer
+    Other Skills
     </h3>
     <div className="skills__box">
         <div className="skills__group">
@@ -12,7 +12,7 @@ const Backend = () => {
                 <i className="bx bx-badge-check"></i>
                 <div>
                     <h3 className="skills__name">
-                        HTML
+                        C / C++
                     </h3>
                     <span className="skills__level">Advance</span>
                 </div>
@@ -22,7 +22,7 @@ const Backend = () => {
                 <i className="bx bx-badge-check"></i>
                 <div>
                     <h3 className="skills__name">
-                        CSS
+                        REST APIs
                     </h3>
                     <span className="skills__level">Advance</span>
                 </div>
@@ -32,7 +32,7 @@ const Backend = () => {
                 <i className="bx bx-badge-check"></i>
                 <div>
                     <h3 className="skills__name">
-                        Javascript
+                        Figma
                     </h3>
                     <span className="skills__level">Intermediate</span>
                 </div>
@@ -42,9 +42,9 @@ const Backend = () => {
                 <i className="bx bx-badge-check"></i>
                 <div>
                     <h3 className="skills__name">
-                        React
+                        Illustrator
                     </h3>
-                    <span className="skills__level">Aati h</span>
+                    <span className="skills__level">Advance</span>
                 </div>
             </div>
 
@@ -56,27 +56,7 @@ const Backend = () => {
                 <i className="bx bx-badge-check"></i>
                 <div>
                     <h3 className="skills__name">
-                        HTML
-                    </h3>
-                    <span className="skills__level">Advance</span>
-                </div>
-            </div>
-
-            <div className="skills__data">
-                <i className="bx bx-badge-check"></i>
-                <div>
-                    <h3 className="skills__name">
-                        CSS
-                    </h3>
-                    <span className="skills__level">Advance</span>
-                </div>
-            </div>
-
-            <div className="skills__data">
-                <i className="bx bx-badge-check"></i>
-                <div>
-                    <h3 className="skills__name">
-                        Javascript
+                        UI/UX
                     </h3>
                     <span className="skills__level">Intermediate</span>
                 </div>
@@ -86,9 +66,29 @@ const Backend = () => {
                 <i className="bx bx-badge-check"></i>
                 <div>
                     <h3 className="skills__name">
-                        React
+                        Product Design
                     </h3>
-                    <span className="skills__level">Aati h</span>
+                    <span className="skills__level">Intermediate</span>
+                </div>
+            </div>
+
+            <div className="skills__data">
+                <i className="bx bx-badge-check"></i>
+                <div>
+                    <h3 className="skills__name">
+                        Wireframing
+                    </h3>
+                    <span className="skills__level">Intermediate</span>
+                </div>
+            </div>
+
+            <div className="skills__data">
+                <i className="bx bx-badge-check"></i>
+                <div>
+                    <h3 className="skills__name">
+                       AfterEffects
+                    </h3>
+                    <span className="skills__level">Intermediate</span>
                 </div>
             </div>
 
