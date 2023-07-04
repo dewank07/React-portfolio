@@ -55,7 +55,7 @@ const Data = () => {
                   ></path>
                 </svg>
       </h1>
-      <h3 className="home__subtitle">Fullstack Developer | Desinger </h3>
+      <h3 className="home__subtitle">Fullstack Developer | Designer </h3>
       <p className="home__description">
       A Full-Stack Web Developer, a Software Engineer and a Designer driven by the challenge of solving intricate problems and creating polished and practical solutions.
       </p>
